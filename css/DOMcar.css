@@ -1,0 +1,23 @@
+#mainImg {
+  width: 400px;
+  height: 200px;
+}
+h1 {
+  text-align: center;
+}
+
+#speedometer{
+  text-align: center;
+}
+
+.carInfo {
+  border: solid red 2px;
+}
+#nextCarBtn {
+  float:right;
+  margin-top: 10px;
+}
+
+#carName {
+  text-align: center;
+}

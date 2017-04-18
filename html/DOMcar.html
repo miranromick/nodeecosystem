@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>Car Simulator</title>
+    <!-- Latest compiled and minified CSS -->
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../js/DOMcar.js">
+    </script>
+    <link rel="stylesheet" href="../css/DOMcar.css">
+  </head>
+  <body>
+    <h1>Car Simulator</h1>
+    <div class = "container">
+      <div class="row">
+        <div class="col-sm-2">
+          <h4 >Speed</h4>
+          <h1 id="speedometer">0</h1>
+        </div>
+        <div class="col-sm-6">
+          <img id="mainImg" src="https://static1.squarespace.com/static/54224325e4b06733ce007d4d/t/54624f0fe4b00403fddd002a/1415728921179/03.png" /><br />
+          <input type="button" value="Gas" onclick="gas()" />
+          <input type="button" value="Brake" onclick="btnBrake()" />
+        </div>
+        <div class="col-sm-4 carInfo">
+          <h4 id="carName">Mustang</h4>
+          <p id="info">
+            The Ford Mustang is an American automobile manufactured by Ford. It was originally based on the platform of the second generation North American Ford Falcon, a compact car. The original 1962 Ford Mustang I two-seater concept car had evolved into the 1963 Mustang II four-seater concept car which Ford used to pretest how the public would take interest in the first production Mustang. The 1963 Mustang II concept car was designed with a variation of the production model's front and rear ends with a roof that was 2.7 inches shorter.</p>
+        </div>
+
+      </div>
+      <input type="button"  value="New Car" onclick="nextCar()" id="nextCarBtn">
+
+
+  </div>
+  </body>
+</html>
